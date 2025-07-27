@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+            background-color: rgb(23, 27, 27);
+        }
+        h1{
+            font-family:Georgia, 'Times New Roman', Times, serif;
+            font-size: 90px;
+            width: max-content;
+            margin: auto;
+            background-color: rgb(23, 27, 27);
+            color: white;
+            padding: 4%;
+            box-shadow: 0 -5px 50px rgb(255, 255, 255);
+            border-radius: 10px 180px 100px 200px;
+        }
+        .contenedor{
+            background-color: rgb(23, 27, 27);
+            border-radius: 2px 4800px 2px 2000px;
+            margin-top: 20%;
+            margin-bottom: 1px;
+            width: 100%;
+            position:absolute;
+        }
+        p{
+            background-color: rgb(23, 27, 27);
+            color: white;
+            border: 1px solid white;
+            border-radius: 10px 180px 100px 200px;
+            box-shadow: 0 15px 50px rgb(255, 255, 255);
+            width: max-content;
+            margin-bottom: 20%;
+            margin-top: 20%;
+            padding: 4%;
+            font-size: 20px;
+        }
+        .formulario{
+            background-color: rgb(23, 27, 27);
+            display: flex;
+            width: min-content;
+            flex-direction: column;
+            border: 1px solid white;
+            border-radius: 20px 20px 150px 20px;
+            padding: 3%;
+            margin: auto;
+            box-shadow: 0 -5px 50px rgb(255, 255, 255);
+            color: white;
+            margin-bottom: 100px;
+        }
+        .photoProyecto{
+            background-color: rgb(23, 27, 27);
+            color: white;
+            width: max-content;
+            border-radius: 20px 20px 150px 20px;
+            padding: 3%;
+            margin: auto;
+            box-shadow: 0 -5px 50px rgb(255, 255, 255);
+        }
+        menu{
+            background-color: white;
+            border-radius: 50px;
+            width: auto;
+            margin: auto;
+            box-shadow: 0 -5px 50px rgb(0, 0, 0);
+            flex-direction: row;
+            display: flex;
+        }
+        h2{
+            width: max-content;
+            margin: auto;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 50px;
+            color:white;
+        }
+        label{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+        }
+        input{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+        }
+        textarea{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 24px;
+        }
+        .Bform{
+            width: min-content;
+            margin-right: auto;
+            margin-top: 6px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 28px;
+            border-radius: 10px 10px 40px 10px;
+            padding: 12px;
+            background-color: rgb(23, 27, 27);
+            color: white
+        }
+        button{
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 38px;
+            border-radius: 50px;
+            border-color: white;
+            margin: auto;
+            padding: 2%;
+            background-color: rgb(23, 27, 27);
+            color: white;
+        }
+        img{
+            border-radius: 30px;
+            height: auto;
+            
+        }
+        a{
+            font-family:'Courier New', Courier, monospace;
+            color: rgb(79, 164, 243);
+        }
+</style>
+<body>
+
+    <menu type="context">
+
+        <button onclick="window.location.href='/'">Pincipio</button>
+        <button>Novedades</button>
+        <button>Experiencias</button>
+
+    </menu>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="photoProyecto">
+        <img src="view/Imagenes/img.jpg" width="95">
+        Este es mi ultimo proyecto.
+        Es una app para registrar contratos que funciona de forma offline y genera un reporte en PDF.
+        <br>
+        <br>
+        COMO FUNCIONA ?: 
+        <br>
+        <br>
+        Levanta un servidor local que se conecta a una base de datos para almacenamiento y gestion de los datos.
+        <br>
+        <br>
+        Tecnologias utilizadas:
+        <br>
+        <br>
+        FRONTEND: <br>
+        ::: <a href="http://lenguajehtml.com">HTML</a>::: <br>
+        ::: <a href="http://lenguajecss.com">CSS</a>::: <br>
+        ::: <a href="http://JavaScript.dev">JavaScript</a>:::
+        <br>
+        <br>
+        BACKEND: <br>   
+        :::<a href="http://go.dev">Golang</a>::: <br>
+        :::<a href="http://github.com/gofibe/fiber/v3">Fiber</a>::: <br>
+        :::<a href="http://sqlite.org">Sqlite3</a>:::
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="view/Imagenes/img4.jpg" width="900">
+        <br>
+        <br>
+        <br>
+        <img src="view/Imagenes/img3.jpg" width="900">
+        <br>
+        <br>
+        <br>
+        <img src="view/Imagenes/img2.jpg" width="900">
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+    <div class="photoProyecto">
+        <img src="view/Imagenes/img.jpg" width="95">
+        Esto es una calculadora de ganancias echa en que funciona de forma offline.
+        <br>
+        <br>
+        COMO FUNCIONA ?:
+        <br>
+        <br>
+        Se entran los datos a calcular y devuelve el total invertido, los ingresos y la ganancia. 
+        <br>
+        <br>
+        Tecnologias utilizadas:
+        <br>
+        <br>
+        FRONTEND: <br>
+        ::: <a href="http://lenguajehtml.com">HTML</a>::: <br>
+        ::: <a href="http://lenguajecss.com">CSS</a>::: <br>
+        ::: <a href="http://JavaScript.dev">JavaScript</a>:::
+        <br>
+        <br>
+        BACKEND: <br>   
+        :::<a href="http://python.org">Python3</a>::: <br>
+        :::<a href="http://fastapi.com">Fastapi</a>::: <br>
+        :::<a href="http://sqlite.org">FPDF</a>:::
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="view/Imagenes/img7.jpg" width="900">
+        <br>
+        <br>
+        <br>
+    </div>
+
+     <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class="photoProyecto">
+        <img src="view/Imagenes/img.jpg" width="95">
+        Esto es una calculadora de ganancias echa en que funciona de forma offline.
+        <br>
+        <br>
+        COMO FUNCIONA ?:
+        <br>
+        <br>
+        Se entran los datos a calcular y devuelve el total invertido, los ingresos y la ganancia. 
+        <br>
+        <br>
+        Tecnologias utilizadas:
+        <br>
+        <br>
+        FRONTEND: <br>
+        ::: <a href="">Tkinter</a>
+        <br>
+        <br>
+        BACKEND: <br>
+        ::: <a href="python3.org">Python3</a>:::
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="view/Imagenes/img5.jpg" width="900">
+        <br>
+        <br>
+        <br>
+    </div>
+
+</body>
+</html>
